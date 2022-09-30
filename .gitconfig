@@ -1,0 +1,17 @@
+[user]
+    name = Pablo Lizano
+    email = plizano@edu.jccm.es
+[core]
+    editor = code --wait
+[diff]
+    tool = vscode-diff
+[difftool]
+    prompt = false
+[difftool "vscode-diff"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode-merge
+[mergetool]
+    keepBackup = false
+[mergetool "vscode-merge"]
+    cmd = code --wait $MERGED 
